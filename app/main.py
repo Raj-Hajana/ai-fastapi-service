@@ -3,6 +3,8 @@ import time
 from typing import Dict, Any
 from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel
+import requests
+
 
 app = FastAPI(
     title="AI Inference Service",
